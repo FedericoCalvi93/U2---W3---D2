@@ -11,7 +11,6 @@ function removeName() {
     alert("Nome rimosso!");
 }
 
-// Mostra il valore precedentemente salvato, se presente
 window.onload = function() {
     const savedName = localStorage.getItem("savedName");
     if (savedName) {
